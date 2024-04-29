@@ -1,0 +1,149 @@
+[
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "Put",
+    "RelativePath": "api/CityMaster/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "city",
+        "Type": "ASPCoreWebAPI3.Models.CityMasterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "deletefromprocedure",
+    "RelativePath": "api/CityMaster/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "Get",
+    "RelativePath": "api/CityMaster/city",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "Postcity",
+    "RelativePath": "api/CityMaster/city",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "ASPCoreWebAPI3.Models.CityMasterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "getcountry",
+    "RelativePath": "api/CityMaster/getcountrybystate{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/CityMaster/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "getstate",
+    "RelativePath": "api/CityMaster/state",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "GetUserData",
+    "RelativePath": "api/CityMaster/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "PostUser",
+    "RelativePath": "api/CityMaster/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userobj",
+        "Type": "ASPCoreWebAPI3.Models.usersModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPCoreWebAPI3.Controllers.CityMasterController",
+    "Method": "PostLoginUser",
+    "RelativePath": "api/CityMaster/userLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginuserobj",
+        "Type": "ASPCoreWebAPI3.Models.loginUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
